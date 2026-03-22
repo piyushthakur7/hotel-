@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'motion/react';
-import { ArrowRoundForward, Award, PlayCircle, Star } from 'lucide-react';
+import { ArrowRight, Award, PlayCircle, Star } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 export default function Hero() {
@@ -49,7 +49,7 @@ export default function Hero() {
             <div className="flex flex-col sm:flex-row gap-6 items-start sm:items-center">
               <Link to="/courses" className="btn-premium bg-accent text-white px-8 py-5 text-sm uppercase tracking-widest hover:bg-white hover:text-primary transition-colors flex items-center gap-3">
                 Explore Programs
-                <ArrowRoundForward className="w-5 h-5" />
+                <ArrowRight className="w-5 h-5" />
               </Link>
               <button className="flex items-center gap-3 text-white group">
                 <div className="w-14 h-14 rounded-full border border-white/30 flex items-center justify-center group-hover:bg-white/10 transition-colors">
