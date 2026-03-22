@@ -34,7 +34,7 @@ export default function Admission() {
               <span className="text-accent italic font-serif">Academic Journey.</span>
             </h1>
             <p className="text-xl text-primary/60 mb-12 font-light leading-relaxed">
-              Join <span className="text-primary font-medium">Mangalayatan University Online</span> thru FIHM. Hurry! Admissions for the session 2026-27 are now open.
+              Join <span className="text-primary font-medium">FIHM ONLINE</span>. Hurry! Admissions for the session 2026-27 are now open.
             </p>
 
             <div className="space-y-10 mb-16 relative">
@@ -60,7 +60,7 @@ export default function Admission() {
             </div>
 
             <div className="bg-primary text-white p-12 rounded-[3.5rem] shadow-2xl relative overflow-hidden mb-12">
-              <h4 className="text-2xl font-bold mb-8 text-accent font-serif italic">Why Choose MU Online?</h4>
+              <h4 className="text-2xl font-bold mb-8 text-accent font-serif italic">Why Choose FIHM ONLINE?</h4>
               <div className="grid grid-cols-2 gap-6 relative z-10">
                 {advantages.map((adv, i) => (
                   <div key={i} className="flex gap-3 items-center">
@@ -84,7 +84,7 @@ export default function Admission() {
               </div>
               <div className="flex-1 bg-white p-8 rounded-3xl border border-accent/10 shadow-premium">
                 <p className="text-[10px] font-bold uppercase tracking-widest text-accent mb-4">Email Admissions</p>
-                <a href="mailto:admissions@muonline.ac.in" className="text-lg font-bold text-primary hover:text-accent transition-colors break-all">admissions@muonline.ac.in</a>
+                <a href="mailto:admissions@fihmonline.edu.in" className="text-lg font-bold text-primary hover:text-accent transition-colors break-all">admissions@fihmonline.edu.in</a>
               </div>
             </div>
           </div>

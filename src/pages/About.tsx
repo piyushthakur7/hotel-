@@ -26,14 +26,14 @@ export default function About() {
               <span className="text-accent italic font-serif text-6xl md:text-8xl">Education.</span>
             </h1>
             <p className="text-xl text-primary/60 leading-relaxed mb-8 font-light">
-              FIHMONLINE is promoted by FIHM Noida under Maa Ambey Education Trust, with over 20 years of excellence in education and hospitality.
+              FIHM ONLINE is a premier institution with over 20 years of excellence in education and hospitality.
             </p>
             <div className="space-y-4">
               <p className="text-lg text-primary/70 leading-relaxed">
-                While FIHM Noida offers premier <span className="font-bold text-primary">Offline courses</span> in the field of hospitality, <span className="font-bold text-primary">FIHM Online</span> serves as the Vocational Training Partner with <span className="font-bold text-accent">Mangalayatan University</span>.
+                We offer unmatched <span className="font-bold text-accent">Online courses</span> in the field of hospitality, management, and arts, designed to meet global standards.
               </p>
               <p className="text-lg text-primary/70 leading-relaxed">
-                Together, we offer UG and PG courses in different streams through Online and Distance Mode, accepted globally and eligible for government jobs worldwide.
+                Our comprehensive UG and PG programs are accessible online, accepted globally, and empower your career worldwide.
               </p>
             </div>
           </motion.div>
@@ -55,18 +55,18 @@ export default function About() {
         <div className="mb-32">
           <div className="bg-primary text-white rounded-[4rem] p-12 md:p-24 overflow-hidden relative shadow-2xl">
             <div className="max-w-4xl relative z-10">
-              <span className="text-accent font-bold uppercase tracking-[0.3em] text-[10px] mb-6 block">Our Academic Partner</span>
-              <h2 className="text-4xl md:text-6xl font-bold mb-8 font-serif italic text-accent">Mangalayatan University</h2>
+              <span className="text-accent font-bold uppercase tracking-[0.3em] text-[10px] mb-6 block">Our Academic Promise</span>
+              <h2 className="text-4xl md:text-6xl font-bold mb-8 font-serif italic text-accent">Excellence in E-Learning</h2>
               <p className="text-2xl text-white/80 font-light mb-12 leading-relaxed">
-                Leading the way in Online Courses in India, Offering quality education that transforms professional paths.
+                Leading the way in Online Courses, offering quality education that transforms professional paths.
               </p>
               
               <div className="grid md:grid-cols-2 gap-12 mb-16">
                 <p className="text-white/60 leading-relaxed">
-                  Mangalayatan University Online offers a unique opportunity for students to study at their own pace. It is the ultimate gateway to a world-class education system, offering a wide range of online programs in Business Studies, Computer Applications, Arts & Humanities, Science & Technology, and more.
+                  FIHM ONLINE offers a unique opportunity for students to study at their own pace. It is the ultimate gateway to a world-class education system, offering a wide range of online programs in Business Studies, Computer Applications, Hospitality, and more.
                 </p>
                 <p className="text-white/60 leading-relaxed">
-                  As one of the best online colleges in India, it provides quality courses that match students' career goals. Interactive learning platforms, discussion groups, and expert faculty ensure a flexible and deep learning experience.
+                  As one of the leading digital platforms, it provides quality courses that match students' career goals. Interactive learning platforms, discussion groups, and expert faculty ensure a flexible and deep learning experience.
                 </p>
               </div>
 

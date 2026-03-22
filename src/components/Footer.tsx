@@ -27,7 +27,7 @@ export default function Footer() {
               FIHM <span className="text-accent underline decoration-accent/20">ONLINE</span>
             </h2>
             <p className="text-primary/60 max-w-sm mb-8 leading-relaxed font-light text-sm">
-              Vocational Training Partner with Mangalayatan University. Offering UGC & NAAC A+ accredited Online Degrees for the leaders of tomorrow.
+              Offering premium UGC & NAAC A+ accredited Online Degrees and Vocational Training for the leaders of tomorrow.
             </p>
             <div className="space-y-4 mb-8">
               <h4 className="font-bold text-primary uppercase tracking-widest text-[10px]">Connect With Us</h4>
@@ -82,7 +82,7 @@ export default function Footer() {
                 <div className="text-[11px]">
                   <p className="font-bold text-primary mb-1">Email Us:</p>
                   <a href="mailto:shikhasharma@ucplgroup.com" className="hover:text-accent block font-bold">shikhasharma@ucplgroup.com</a>
-                  <a href="mailto:admission@mangalayatan.edu.in" className="hover:text-accent block">admission@mangalayatan.edu.in</a>
+                  <a href="mailto:admission@fihmonline.edu.in" className="hover:text-accent block">admission@fihmonline.edu.in</a>
                 </div>
               </li>
             </ul>
@@ -91,7 +91,7 @@ export default function Footer() {
         
         <div className="border-t border-gray-100 pt-10 flex flex-col md:flex-row justify-between items-center gap-6 text-[10px] font-bold text-primary/40 uppercase tracking-[0.2em]">
           <div className="flex flex-col gap-2 items-center md:items-start text-center md:text-left">
-            <p>© {new Date().getFullYear()} Mangalayatan University. All Rights Reserved.</p>
+            <p>© {new Date().getFullYear()} FIHM ONLINE. All Rights Reserved.</p>
           </div>
           <div className="flex gap-12">
             <a href="#" className="hover:text-accent">Careers</a>

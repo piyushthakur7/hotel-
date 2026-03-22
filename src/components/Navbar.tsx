@@ -33,8 +33,8 @@ export default function Navbar() {
                 <div className="absolute inset-0 bg-accent/20 rounded-full blur-xl scale-0 group-hover:scale-150 transition-transform duration-700" />
               </div>
               <div className="flex flex-col">
-                <span className="text-base font-bold leading-tight uppercase tracking-tighter text-primary">Federal Institute</span>
-                <span className="text-[10px] font-bold text-accent uppercase tracking-[0.2em]">of Hotel Management</span>
+                <span className="text-base font-bold leading-tight uppercase tracking-widest text-primary">FIHM</span>
+                <span className="text-[10px] font-bold text-accent uppercase tracking-[0.2em]">ONLINE</span>
               </div>
             </Link>
 

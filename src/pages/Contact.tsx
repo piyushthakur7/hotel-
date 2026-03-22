@@ -107,7 +107,7 @@ export default function Contact() {
                   <MapPin className="w-6 h-6 text-accent" />
                 </div>
                 <div>
-                  <h4 className="text-xl font-bold mb-2">Mangalayatan University Campus</h4>
+                  <h4 className="text-xl font-bold mb-2">Main Campus</h4>
                   <p className="text-white/50 text-sm leading-relaxed">Aligarh-Mathura Highway, Beswan, Aligarh, UP</p>
                   <p className="text-accent text-sm mt-2 font-bold">+91 9358-333333</p>
                 </div>
