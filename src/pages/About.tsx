@@ -41,10 +41,9 @@ export default function About() {
           <div className="relative">
             <div className="aspect-[4/5] rounded-[3rem] overflow-hidden shadow-premium rotate-3 hover:rotate-0 transition-transform duration-700">
               <img 
-                src="https://images.unsplash.com/photo-1541339907198-e08756ebafe3?auto=format&fit=crop&q=80&w=1000" 
+                src="/about-institute.png" 
                 alt="Institute" 
-                className="w-full h-full object-cover grayscale brightness-90 hover:grayscale-0 transition-all duration-700"
-                referrerPolicy="no-referrer"
+                className="w-full h-full object-cover brightness-105 hover:brightness-110 transition-all duration-700"
               />
             </div>
             <div className="absolute -bottom-10 -right-10 w-64 h-64 bg-accent/10 rounded-full -z-10 animate-pulse" />

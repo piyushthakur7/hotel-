@@ -92,6 +92,9 @@ export default function Footer() {
         <div className="border-t border-gray-100 pt-10 flex flex-col md:flex-row justify-between items-center gap-6 text-[10px] font-bold text-primary/40 uppercase tracking-[0.2em]">
           <div className="flex flex-col gap-2 items-center md:items-start text-center md:text-left">
             <p>© {new Date().getFullYear()} FIHM ONLINE. All Rights Reserved.</p>
+            <p className="normal-case tracking-normal text-[11px] text-primary/60 font-medium mt-1">
+              Developed by <a href="https://webtotalsolution.com" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline font-bold">Web Total Solution</a>
+            </p>
           </div>
           <div className="flex gap-12">
             <a href="#" className="hover:text-accent">Careers</a>
