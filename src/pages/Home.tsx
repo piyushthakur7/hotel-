@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 import { COURSES } from '../constants';
 import { ChevronDown, ChevronUp, Monitor, BookOpen, Users, Headphones, GraduationCap, Library, Award, ShieldCheck, Calendar, DollarSign } from 'lucide-react';
 
+import { SEO } from '../components/SEO';
+
 export default function Home() {
   const [activeTab, setActiveTab] = useState('ug');
   const [openFaq, setOpenFaq] = useState<number | null>(null);
@@ -60,6 +62,10 @@ export default function Home() {
 
   return (
     <div className="bg-white pt-0">
+      <SEO 
+        title="FIHM Online | Online Degree Courses in India | Admission Open 2026" 
+        description="FIHM Online offers UGC-approved online degree courses in BA, B.Com & IT. Study from NAAC A+ universities. Admissions open for 2026. Apply now!"
+      />
       <Hero />
 
       {/* About Section + Admission Form */}

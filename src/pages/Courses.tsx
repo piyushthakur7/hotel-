@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { COURSES } from '../constants';
 import CourseCard from '../components/CourseCard';
 import { Search, Filter, Award, ShieldCheck } from 'lucide-react';
+import { SEO } from '../components/SEO';
 
 export default function Courses() {
   const [filter, setFilter] = useState('All');
@@ -17,6 +18,10 @@ export default function Courses() {
 
   return (
     <div className="pt-32 pb-24 bg-secondary/30 min-h-screen">
+      <SEO 
+        title="Online Courses List | BA, B.Com & IT Programs | FIHM Online" 
+        description="Explore online courses including BA, B.Com & IT programs. UGC-approved degrees from NAAC A+ universities. Choose your course and apply today!"
+      />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mb-16">
           <h1 className="text-5xl font-bold mb-6">Explore Our Programs</h1>

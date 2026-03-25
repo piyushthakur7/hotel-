@@ -2,6 +2,7 @@ import React from 'react';
 import AdmissionForm from '../components/AdmissionForm';
 import { FileText, CreditCard, Upload, CheckCircle, Cpu, Phone } from 'lucide-react';
 import { motion } from 'motion/react';
+import { SEO } from '../components/SEO';
 
 export default function Admission() {
   const steps = [
@@ -25,6 +26,10 @@ export default function Admission() {
 
   return (
     <div className="pt-32 pb-24 bg-secondary/50">
+      <SEO 
+        title="Online Admission 2026 | Apply for BA, B.Com & IT Courses | FIHM Online" 
+        description="Apply for online BA, B.Com & IT courses with UGC-approved degrees. Limited seats available for 2026. Start your admission process now!"
+      />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-20 items-start">
           <div>
